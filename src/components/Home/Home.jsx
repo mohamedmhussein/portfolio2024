@@ -8,7 +8,7 @@ const Home = () => {
         <p>This is my official portfolio website to showcase my web development activities</p>
         <a href="">Download Resume</a>
         <div className={styles.image_container}>
-            
+            <img src='/pattern.png' className={styles.background_pattern}/>
         </div>
         
     </div>
