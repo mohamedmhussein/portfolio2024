@@ -5,14 +5,18 @@ import Image from 'next/image'
 const Header = () => {
   return (
     <div className={styles.container}>
-      <Image 
-        src= '/elprince.png'
-        className={styles.logo}
-        width={150}
-        height={150}
-      />
+      <div className={styles.logo}>
+        <Image 
+          src= '/logo.png'
+          className={styles.logo}
+          width={50}
+          height={50}
+        />
+        <h1>El Prince</h1>
+      </div>
 
-      <ul>
+
+      <ul className={styles.icons}>
         <li><a href=''>HOME</a></li>
         <li><a href=''>ABOUT</a></li>
         <li><a href=''>PORTFOLIO</a></li>
