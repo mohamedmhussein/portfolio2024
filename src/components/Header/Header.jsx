@@ -8,13 +8,16 @@ const Header = () => {
       <Image 
         src= '/elprince.png'
         className={styles.logo}
+        width={150}
+        height={150}
       />
 
       <ul>
-        <li><a href=''></a></li>
-        <li><a href=''></a></li>
-        <li><a href=''></a></li>
-        <li><a href=''></a></li>
+        <li><a href=''>HOME</a></li>
+        <li><a href=''>ABOUT</a></li>
+        <li><a href=''>PORTFOLIO</a></li>
+        <li><a href=''>SERVICES</a></li>
+        <li><a href=''>HIRE ME</a></li>
       </ul>
       
     </div>
