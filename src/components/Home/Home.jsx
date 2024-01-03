@@ -11,8 +11,8 @@ const Home = () => {
   }
   return (
     <div className= {styles.container}>
-        <h1><span>Mohammad</span> El Prince</h1>
-        <p> I am a <span>Software Developer</span> and this is my official portfolio website to showcase my web development activities</p>
+        <h1>I am <span>Mohammad</span></h1>
+        <p> I am a <span>Software Developer</span> who is based in London, Ontario and this is my official portfolio website to showcase my web development activities</p>
         <a href="" className={styles.download}>Download Resume</a>
         <div className={styles.image_container}>
           <img src='/pattern.png' className={styles.background_pattern}/>
