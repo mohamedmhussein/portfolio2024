@@ -10,8 +10,13 @@
     font-weight: bold;
 }
 
-.container span {
+.container h1 span {
     color: #ff4321;
+}
+
+.container p span {
+    color: #ff4321;
+    font-weight: bold;
 }
 
 .container p {
@@ -30,6 +35,11 @@
     margin: 20px 0;
     border-radius: 5px;
     font-size: 12px;
+    transition: ease-out 0.2s;
+}
+
+.download:hover {
+    background-color: #ff4321;
 }
 
 .image_container {
@@ -58,8 +68,18 @@
 }
 
 .social_links {
-    margin-left: 8%;
-    margin-top: 100px;
+    /* margin-left: 1%; */
+    margin-top: 80px;
 }
 
+.social_links a {
+    font-size: 30px;
+    color: #606163;
+    margin-right: 20px;
+    transition: ease-out 0.2s;
+}
+
+.social_links a:hover {
+    color: #ff4321;
+}
 
