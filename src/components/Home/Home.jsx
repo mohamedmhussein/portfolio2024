@@ -27,11 +27,12 @@ const Home = () => {
         <div className={styles.skills}>
           <h3>Tech Stack</h3>
           <div className={styles.skill_icons}>
-            <img src='/js.gif'alt='' className={styles.js}/>
-            <img src='/python.gif'alt='' className={styles.js}/>
-            <img src='/html.png'alt='' className={styles.js}/>
-            <img src='/css.png'alt='' className={styles.js}/>
-            <img src='/react.png'alt='' className={styles.js}/>
+            <img src='/js.gif' alt='' />
+            <img src='/python.gif' alt='' />
+            <img src='/html.png' alt='' />
+            <img src='/css.png' alt='' />
+            <img src='/react.png' alt='' />
+            <img src='/nextjs.png' alt='' />
           </div>
         </div>
         
