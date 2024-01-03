@@ -24,6 +24,16 @@ const Home = () => {
           <a href={social.linkedin}><FaLinkedin className={styles.linkedin} /></a>
           <a href={social.github}><FaSquareGithub  className={styles.github}/></a>  
         </div>
+        <div className={styles.skills}>
+          <h3>Tech Stack</h3>
+          <div className={styles.skill_icons}>
+            <img src='/js.gif'alt='' className={styles.js}/>
+            <img src='/js.gif'alt='' className={styles.js}/>
+            <img src='/js.gif'alt='' className={styles.js}/>
+            <img src='/js.gif'alt='' className={styles.js}/>
+            <img src='/js.gif'alt='' className={styles.js}/>
+          </div>
+        </div>
         
     </div>
   )
