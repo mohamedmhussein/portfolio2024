@@ -32,6 +32,7 @@ const Home = () => {
             <img src='/html.png' alt='' />
             <img src='/css.png' alt='' />
             <img src='/react.png' alt='' />
+            <img src='/flask.png' alt='' />
             <img src='/nextjs.png' alt='' />
           </div>
         </div>
