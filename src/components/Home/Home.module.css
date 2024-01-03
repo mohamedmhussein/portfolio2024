@@ -86,6 +86,7 @@
 .skills {
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
 .skills h3 {
@@ -102,7 +103,6 @@
 }
 
 .skill_icons img {
-    display: inline-block;
     margin: 10px -7px;
     scale: 0.6;
 }
