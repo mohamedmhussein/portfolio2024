@@ -5,6 +5,10 @@ import { FaLinkedin, FaSquareGithub  } from "react-icons/fa6";
 
 
 const Home = () => {
+  const social = {
+    linkedin: "https://www.linkedin.com/in/mohamedhusseinofficial/",
+    github: 'https://github.com/mohamedmhussein',
+  }
   return (
     <div className= {styles.container}>
         <h1><span>Mohammad</span> El Prince</h1>
@@ -17,8 +21,8 @@ const Home = () => {
 
         </div>
         <div className={styles.social_links}>
-          <a href='https://github.com/mohamedmhussein'><FaLinkedin className={styles.linkedin} /></a>
-          <a href='https://www.linkedin.com/in/mohamedhusseinofficial/'><FaSquareGithub  className={styles.github}/></a>  
+          <a href={social.linkedin}><FaLinkedin className={styles.linkedin} /></a>
+          <a href={social.github}><FaSquareGithub  className={styles.github}/></a>  
         </div>
         
     </div>
