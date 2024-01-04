@@ -22,8 +22,8 @@ const Home = () => {
 
         </div>
         <div className={styles.social_links}>
-          <a href={social.linkedin}><FaLinkedin className={styles.linkedin} target="_blank"/></a>
-          <a href={social.github}><FaSquareGithub  className={styles.github}target="_blank" /></a>  
+          <a href={social.linkedin} target="_blank"><FaLinkedin className={styles.linkedin} /></a>
+          <a href={social.github} target="_blank"><FaSquareGithub  className={styles.github} /></a>  
         </div>
         <div className={styles.skills}>
           <h3>Tech Stack</h3>
