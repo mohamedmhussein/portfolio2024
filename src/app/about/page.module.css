@@ -1,2 +1,12 @@
+.container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 8% 8%;
 
+}
+
+.title {
+    color: #606163;
+}
   
