@@ -3,7 +3,9 @@ import styles from './page.module.css'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div className={styles.container}>
+
+    </div>
   )
 }
 
