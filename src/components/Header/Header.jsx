@@ -17,11 +17,11 @@ const Header = () => {
 
 
       <ul className={styles.icons}>
-        <li><a href=''>HOME</a></li>
-        <li><a href=''>ABOUT</a></li>
-        <li><a href=''>PORTFOLIO</a></li>
-        <li><a href=''>SERVICES</a></li>
-        <li><a href=''>HIRE ME</a></li>
+        <li><a href='/'>HOME</a></li>
+        <li><a href='/about'>ABOUT</a></li>
+        <li><a href='/portfolio'>PORTFOLIO</a></li>
+        <li><a href='/services'>SERVICES</a></li>
+        <li><a href='/contact'>CONTACT</a></li>
       </ul>
       
     </div>
