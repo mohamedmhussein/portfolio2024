@@ -22,4 +22,25 @@
 .description {
     text-align: justify;
 }
-  
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.buttons a {
+
+    background-color: #212121;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: ease-out 0.2s;
+    font-weight: 400;
+}
+
+.buttons a:hover {
+    background-color: #ff4321;
+}
