@@ -10,7 +10,11 @@ const page = () => {
       </div>
       <div className= {styles.text}>
         <h1 className={styles.title}>About Me</h1>
-        <p className={styles.description}>Hello there! 👋 I'm Mohamed Hussein, a recent graduate from Flatiron School with a solid foundation in full-stack web development. I thrive on turning innovative ideas into robust, user-friendly applications.</p>
+        <p className={styles.description}>Hello there! 👋 I'm Mohammad El Prince, a recent graduate from Flatiron School with a solid foundation in full-stack web development.  As a lifelong learner, I continuously work on growing my technical knowledge. I enjoy tackling challenges head-on and crafting creative solutions to real-world problems. My belief in the power of teamwork guides me in achieving exceptional results. </p>
+        <div className= {styles.buttons}>
+          <button>My Work</button>
+          <button>Contact Me</button>
+        </div>
       </div>
 
     </div>
