@@ -9,4 +9,17 @@
 .title {
     color: #606163;
 }
+
+.image {
+    border-radius: 15px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description {
+    text-align: justify;
+}
   

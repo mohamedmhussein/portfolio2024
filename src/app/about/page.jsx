@@ -6,11 +6,11 @@ const page = () => {
   return (
     <div className={styles.container}>
       <div>
-        <Image src='/about.jpg' width={500} height={300}/>
+        <Image src='/about.jpg' width={500} height={300} className= {styles.image}/>
       </div>
-      <div>
+      <div className= {styles.text}>
         <h1 className={styles.title}>About Me</h1>
-        <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sequi vel nulla praesentium nemo! In dolores, facere, officiis repudiandae voluptatum earum sunt nisi nobis, harum laboriosam recusandae iure omnis temporibus.</p>
+        <p className={styles.description}>Hello there! 👋 I'm Mohamed Hussein, a recent graduate from Flatiron School with a solid foundation in full-stack web development. I thrive on turning innovative ideas into robust, user-friendly applications.</p>
       </div>
 
     </div>
