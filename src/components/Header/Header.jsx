@@ -3,6 +3,14 @@ import styles from './header.module.css'
 import Image from 'next/image'
 
 const Header = () => {
+
+  const links = [
+    {href:'/', label:'HOME'},
+    {href:'/about', label:'ABOUT'},
+    {href:'/portfolio', label:'PORTFOLIO'},
+    {href:'/services', label:'SERVICES'},
+    {href:'/contact', label:'CONTACT'}
+  ]
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
@@ -17,11 +25,11 @@ const Header = () => {
 
 
       <ul className={styles.icons}>
-        <li><a href='/'>HOME</a></li>
-        <li><a href='/about'>ABOUT</a></li>
-        <li><a href='/portfolio'>PORTFOLIO</a></li>
-        <li><a href='/services'>SERVICES</a></li>
-        <li><a href='/contact'>CONTACT</a></li>
+        {
+          links.map(link => (
+            <li key = {link.href}><a href={link.href}>{link.label}</a></li>
+          ))
+        }
       </ul>
       
     </div>
