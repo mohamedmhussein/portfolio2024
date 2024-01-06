@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div className={styles.container}>
       <div>
-        <Image src='/about.jpg' width={500} height={300} className= {styles.image}/>
+        <Image src='/about.jpg' width={600} height={400} className= {styles.image}/>
       </div>
       <div className= {styles.text}>
         <h1 className={styles.title}>About Me</h1>
