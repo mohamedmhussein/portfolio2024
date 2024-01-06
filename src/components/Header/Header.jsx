@@ -1,6 +1,9 @@
+'use client'
 import React from 'react'
 import styles from './header.module.css'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
+import { usePathname } from 'next/navigation'
 
 const Header = () => {
 
@@ -11,6 +14,8 @@ const Header = () => {
     {href:'/services', label:'SERVICES'},
     {href:'/contact', label:'CONTACT'}
   ]
+
+  const path = usePathname()
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
@@ -27,7 +32,9 @@ const Header = () => {
       <ul className={styles.icons}>
         {
           links.map(link => (
-            <li key = {link.href}><a href={link.href}>{link.label}</a></li>
+            <li key = {link.href}><a href={link.href} className={styles.link}>
+              { link.href === path && (<motion.span layoutId = "underline" className= {styles.line}/>)}
+              {link.label}</a></li>
           ))
         }
       </ul>
