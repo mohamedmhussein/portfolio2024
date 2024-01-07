@@ -20,13 +20,13 @@
     margin: 10px 20px;
 }
 
-.icons li a {
+.link {
     text-decoration: none;
     color: #606163;
     transition: ease-out 0.5s;
 }
 
-.icons li a:hover {
+.link:hover {
     color: #ff4321;
 }
 

@@ -4,6 +4,7 @@ import styles from './header.module.css'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 
 const Header = () => {
 
@@ -32,9 +33,11 @@ const Header = () => {
       <ul className={styles.icons}>
         {
           links.map(link => (
-            <li key = {link.href}><a href={link.href} className={styles.link}>
-              { link.href === path && (<motion.span layoutId = "underline" className= {styles.line}/>)}
-              {link.label}</a></li>
+            
+              <li key = {link.href}><Link href={link.href} className={styles.link}>
+                { link.href === path && (<motion.span layoutId = "underline" className= {styles.line}/>)}
+                {link.label}</Link></li>
+            
           ))
         }
       </ul>
